@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = False # 设置为False拒绝遵守Robot协议
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {  # pipeline注册
-   'amazon.pipelines.AmazonPipeline': 300,  # 300为优先级，优先级越高越先执行
+   'amazon.pipelines.AmazonPipeline': 300,  # 300为优先级，优先级越低越先执行
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

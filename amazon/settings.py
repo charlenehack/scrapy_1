@@ -21,7 +21,7 @@ NEWSPIDER_MODULE = 'amazon.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False # 设置为False拒绝遵守Robot协议
 
-DEPTH_LIMIT=1  # 设置爬取深度
+#DEPTH_LIMIT=1  # 设置爬取深度
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
